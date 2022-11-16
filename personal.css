@@ -1,0 +1,266 @@
+*{
+
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;}
+.container{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(13, 13, 14);
+    }
+    nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 80%;
+}
+nav ul li{
+    display: inline-block;
+    padding: 50px 32px;
+}nav ul li a{
+    text-decoration: none;
+    color: wheat;
+    font-weight: bold;
+    list-style: none;
+    transition: 0.5s;
+}nav ul li a:hover{
+    color: red;
+}.logo{
+    color: wheat;
+    font-size: 35px;
+}span{
+    color: rgb(245, 3, 3);
+}.btn-subs{
+    background-color: rgb(245, 3, 3);
+    color: white;
+    text-decoration: none;
+    padding: 7px 25px;
+    border-radius: 30px;
+    transition: 0.5s;
+}.btn-subs:hover{
+    transform: scale(1.1);
+}.text{
+  margin-top: 12%;
+  margin-left: 8%;
+}.content.img img{
+    width: 420px;
+}.text{
+    width: 100%;
+    line-height: 65px;
+    color: white;
+}.text h4{
+    font-size: 23px;
+    color: rgb(235, 197, 208);
+    letter-spacing: 2px;
+}.text h1{
+    font-size: 50px;
+    letter-spacing: 1px;
+}.text h3{
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+.cv{
+    text-decoration: none;
+    color: wheat;
+    background-color: #f50303;
+    padding: 7px 30px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px #000, 0px 0px 8px #858585;
+    transition: 0.5s;
+}
+.cv:hover{
+    background-color: transparent;
+    outline: none;
+    border: #f50303 2px solid;
+}
+.cv:active{
+    background-color:#f50303;
+    border: white;
+}
+.content .img{
+    width: 45%;
+    height: 70%;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+.facebook-logo{
+    width: 50px;
+}
+.insta-logo{
+    width: 50px;
+}
+.tuwin-logo{
+    width: 50px;
+}
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: rgb(12, 12, 12);
+}
+.about img{
+    height: auto;
+    width: 430px;
+}
+.about-text{
+    width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h2{
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-text h5{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.about-text p{
+    color: rgb(228, 222, 222);
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+.button{
+    background-color: #f50303;
+    color: wheat;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px #000, 0px 0px 8px #858585;  
+    transition: 0.5s;
+}
+.button:hover{
+    background-color: transparent;
+    transform: scale(1.1);
+    border: #f50303 2px solid;
+}
+.button:active{
+    border: white;
+    background-color:#f50303;
+}
+.service{
+    background: rgb(5, 5, 5);
+    width: 100%;
+    padding: 100px 0px;
+}
+.title h2{
+    color: white;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+}
+.card{
+    height: 365px;
+    width: 345px;
+    padding: 20px 35px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.car i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: rgb(12, 12, 12);
+}
+h5{
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+
+}
+.pra p{
+    color: rgb(40, 152, 177);
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+.contact-me{
+    width: 100%;
+    height: 290px;
+    background: rgb(8, 8, 8) ;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact-me p{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.contact-me .button-two{
+    background-color: #f50303;
+    color: wheat;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px #000, 0px 0px 8px #858585;  
+    transition: 0.5s;
+}
+.contact-me .button-two :hover{
+    background-color:transparent ;
+    border: 2px solid violet ;
+    cursor: pointer;
+}
+footer{
+    position: relative;
+    width: 100%;
+    height: 400px;
+     background: rgb(8, 8, 8);
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+
+}
+footer p:nth-child(1){
+    font-size: 30px;
+    color: rgb(206, 194, 194);
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+footer p:nth-child(2){
+    color: white;
+    font-size: 17px;
+    width: 500px;
+    text-align: center;
+    line-height: 26px;
+} 
+.end{
+    color: white;
+    font-size: 17px;
+    width: 500px;
+    text-align: center;
+    line-height: 26px;
+}
